@@ -21,7 +21,10 @@ set(0,'defaultfigureWindowStyle','docked'); %This line makes it so that when you
 %LogFile = fopen('..\ModuleData\LOG04049.TXT','r'); %Living room with between 0-4 people (not cut to 24 hours).
 %LogFile = fopen('..\ModuleData\LOG04049_Cut.TXT','r'); %Living room with between 0-4 people.
 %LogFile = fopen('..\ModuleData\LOG04050.TXT','r'); %Basement with 1 person (not cut).
-LogFile = fopen('..\ModuleData\LOG04050_Cut.TXT','r'); %Basement with 1 person.
+%LogFile = fopen('..\ModuleData\LOG04050_Cut.TXT','r'); %Basement with 1 person.
+%LogFile = fopen('..\ModuleData\LOG04051_Cut.TXT','r'); %Furnace room with 0 people.
+%LogFile = fopen('..\ModuleData\LOG04052.TXT','r'); %Sery's room (not cut).
+LogFile = fopen('..\ModuleData\LOG04052_Cut.TXT','r'); %Sery's room.
 
 NumLines = inf; %Read the whole file, or change the value for the number of lines you want to read.
 
